@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     $("body").on("click", ".start-button", function (event) {
         event.preventDefault();
-        clickSound.play();
+
         generateHTML();
 
         timerWrapper();
@@ -123,7 +123,7 @@ var answerArray = [
     ["Wes Welker", "Chris Chambers", "Antonio Brown", "Julian Edelman"],
     ["N'Keal Harry", "Bo Jackson", "James Connor", "Brian Hoyer"]
 ];
-var imageArray = ["<img class='center-block img-right' src='assets/images/tombrady.png'>", "<img class='center-block img-right' src='assets/images/foxborough.png'>", "<img class='center-block img-right' src='assets/images/six.png'>", "<img class='center-block img-right' src='assets/images/bills.png'>", "<img class='center-block img-right' src='assets/images/sixthround.png'>", "<img class='center-block img-right' src='assets/images/randymoss.png'>", "<img class='center-block img-right' src='assets/images/julian.png'>", "<img class='center-block img-right' src='assets/images/.png'>"];
+var imageArray = ["<img class='center-block img-right' src='assets/images/tombrady.png'>", "<img class='center-block img-right' src='assets/images/foxborough.png'>", "<img class='center-block img-right' src='assets/images/six.png'>", "<img class='center-block img-right' src='assets/images/bills.png'>", "<img class='center-block img-right' src='assets/images/sixthround.png'>", "<img class='center-block img-right' src='assets/images/randymoss.png'>", "<img class='center-block img-right' src='assets/images/julian.png'>", "<img class='center-block img-right' src='assets/images/harry.png'>"];
 var correctAnswers = ["A. Tom Brady", "C. Foxborough Mass", "D. 6", "A. Buffalo bills", "C. Sixth", "A. Randy Moss", "D. Julian Edelman", "A. N'Keal Harry"];
 var questionCounter = 0;
 var selecterAnswer;
