@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Create a function that creates the start button and initial screen
+    // Create a function that creates the start button 
 
     function initialScreen() {
         startScreen = "<p class='text-center main-button-container'><a class='btn btn-primary btn-lg btn-block start-button' href='#' role='button'>Start Quiz</a></p>";
